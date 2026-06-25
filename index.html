@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VK Institute of Technology – Empowering Students for a Better Future</title>
+  <meta name="description" content="VK Institute of Technology – Premier engineering college in Chennai, Tamil Nadu offering B.Tech, MBA, MCA programmes with 95% placement rate." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== LOADING SCREEN ===================== -->
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">VKIT</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <p class="loader-text">Loading Excellence…</p>
+    </div>
+  </div>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <div class="logo-icon">VK</div>
+        <div class="logo-text">
+          <span class="logo-name">VK Institute of Technology</span>
+          <span class="logo-tag">NAAC Accredited | AICTE Approved</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#courses" class="nav-link">Courses</a></li>
+        <li><a href="#admissions" class="nav-link">Admissions</a></li>
+        <li><a href="#faculty" class="nav-link">Faculty</a></li>
+        <li><a href="#campus" class="nav-link">Campus Life</a></li>
+        <li><a href="#placements" class="nav-link">Placements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="nav-apply-btn" onclick="scrollToSection('admissions')">Apply Now</button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section id="home" class="hero">
+    <div class="hero-blueprint"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Est. 1998 · Chennai, Tamil Nadu</div>
+      <h1 class="hero-title">
+        Welcome to<br />
+        <span class="hero-title-accent">VK Institute</span><br />
+        of Technology
+      </h1>
+      <p class="hero-subtitle">Empowering Students for a Better Future — through world-class education, cutting-edge research, and industry-ready training.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" onclick="scrollToSection('admissions')">Apply Now</button>
+        <button class="btn btn-outline" onclick="scrollToSection('courses')">Explore Courses</button>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>5000+</strong><span>Students</span></div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat"><strong>300+</strong><span>Faculty</span></div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat"><strong>95%</strong><span>Placement</span></div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat"><strong>25+</strong><span>Courses</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===================== NOTICE TICKER ===================== -->
+  <div class="ticker-wrap">
+    <div class="ticker-label">Latest News</div>
+    <div class="ticker-track">
+      <div class="ticker-content">
+        🎓 Admissions Open for 2025–26 Batch &nbsp;|&nbsp;
+        🏆 VKIT ranked #1 in Tamil Nadu for Placements 2024 &nbsp;|&nbsp;
+        📢 Campus Recruitment Drive – TCS, Wipro, Infosys on July 15 &nbsp;|&nbsp;
+        🔬 Innovation Lab inaugurated by Chief Minister &nbsp;|&nbsp;
+        🎉 Annual Cultural Fest "VKIT TECH FIESTA 2025" – Register Now &nbsp;|&nbsp;
+        📅 Scholarship Applications open – Last date July 31, 2025 &nbsp;|&nbsp;
+        🎓 Admissions Open for 2025–26 Batch &nbsp;|&nbsp;
+        🏆 VKIT ranked #1 in Tamil Nadu for Placements 2024 &nbsp;|&nbsp;
+        📢 Campus Recruitment Drive – TCS, Wipro, Infosys on July 15
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== ABOUT SECTION ===================== -->
+  <section id="about" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Who We Are</span>
+        <h2 class="section-title">Shaping Engineers,<br />Inspiring Leaders</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">Founded in 1998, VK Institute of Technology is one of Tamil Nadu's most respected engineering institutions — built on the conviction that rigorous academics and human values together produce exceptional professionals.</p>
+          <p>Spread across a lush 120-acre campus in Chennai, VKIT houses state-of-the-art laboratories, a 3-lakh-volume library, innovation incubators, and world-class sports infrastructure. Our alumni lead engineering teams at Google, Microsoft, Zoho, and over 500 other organisations worldwide.</p>
+          <div class="about-cards">
+            <div class="vm-card">
+              <div class="vm-icon">🎯</div>
+              <h4>Our Vision</h4>
+              <p>To be a globally recognised institution that transforms young minds into ethical, innovative, and socially responsible engineers.</p>
+            </div>
+            <div class="vm-card">
+              <div class="vm-icon">🚀</div>
+              <h4>Our Mission</h4>
+              <p>Deliver excellence in education through outcome-based learning, industry partnerships, and a culture of research and entrepreneurship.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats-grid">
+          <div class="stat-card" data-count="5000" data-suffix="+">
+            <div class="stat-number"><span class="counter">0</span>+</div>
+            <div class="stat-label">Enrolled Students</div>
+          </div>
+          <div class="stat-card" data-count="300" data-suffix="+">
+            <div class="stat-number"><span class="counter">0</span>+</div>
+            <div class="stat-label">Faculty Members</div>
+          </div>
+          <div class="stat-card" data-count="25" data-suffix="+">
+            <div class="stat-number"><span class="counter">0</span>+</div>
+            <div class="stat-label">Programmes Offered</div>
+          </div>
+          <div class="stat-card highlight" data-count="95" data-suffix="%">
+            <div class="stat-number"><span class="counter">0</span>%</div>
+            <div class="stat-label">Placement Rate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COURSES SECTION ===================== -->
+  <section id="courses" class="section section-dark">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-eyebrow">Academics</span>
+        <h2 class="section-title">Programmes We Offer</h2>
+        <p class="section-subtitle">Industry-aligned curricula co-designed with leading companies to keep you ahead of the curve.</p>
+      </div>
+
+      <div class="courses-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="btech">B.Tech</button>
+        <button class="filter-btn" data-filter="pg">Postgraduate</button>
+      </div>
+
+      <div class="courses-grid">
+        <div class="course-card" data-category="btech">
+          <div class="course-icon">💻</div>
+          <div class="course-tag">B.Tech · 4 Years</div>
+          <h3>Computer Science Engineering</h3>
+          <p>Algorithms, Software Engineering, Cloud Computing, and full-stack development with industry projects.</p>
+          <div class="course-meta">
+            <span>🎓 120 Seats</span>
+            <span>📊 CGPA 8.5+</span>
+          </div>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card featured" data-category="btech">
+          <div class="course-badge">Most Popular</div>
+          <div class="course-icon">🤖</div>
+          <div class="course-tag">B.Tech · 4 Years</div>
+          <h3>Artificial Intelligence &amp; Data Science</h3>
+          <p>Machine Learning, Deep Learning, NLP, Computer Vision, and Big Data Analytics for the AI era.</p>
+          <div class="course-meta">
+            <span>🎓 60 Seats</span>
+            <span>📊 CGPA 9.0+</span>
+          </div>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card" data-category="btech">
+          <div class="course-icon">🌐</div>
+          <div class="course-tag">B.Tech · 4 Years</div>
+          <h3>Information Technology</h3>
+          <p>Cybersecurity, Networks, Web Technologies, and Database Management for digital infrastructure.</p>
+          <div class="course-meta">
+            <span>🎓 60 Seats</span>
+            <span>📊 CGPA 8.0+</span>
+          </div>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card" data-category="btech">
+          <div class="course-icon">📡</div>
+          <div class="course-tag">B.Tech · 4 Years</div>
+          <h3>Electronics &amp; Communication Engg.</h3>
+          <p>VLSI Design, Embedded Systems, IoT, Signal Processing, and Wireless Communication.</p>
+          <div class="course-meta">
+            <span>🎓 60 Seats</span>
+            <span>📊 CGPA 7.5+</span>
+          </div>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card" data-category="btech">
+          <div class="course-icon">⚙️</div>
+          <div class="course-tag">B.Tech · 4 Years</div>
+          <h3>Mechanical Engineering</h3>
+          <p>CAD/CAM, Thermal Engineering, Manufacturing Processes, Robotics, and Automobile Design.</p>
+          <div class="course-meta">
+            <span>🎓 60 Seats</span>
+            <span>📊 CGPA 7.0+</span>
+          </div>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card" data-category="btech">
+          <div class="course-icon">🏗️</div>
+          <div class="course-tag">B.Tech · 4 Years</div>
+          <h3>Civil Engineering</h3>
+          <p>Structural Engineering, Environmental Science, Urban Planning, GIS, and Smart Infrastructure.</p>
+          <div class="course-meta">
+            <span>🎓 60 Seats</span>
+            <span>📊 CGPA 7.0+</span>
+          </div>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card" data-category="pg">
+          <div class="course-icon">📈</div>
+          <div class="course-tag">MBA · 2 Years</div>
+          <h3>Master of Business Administration</h3>
+          <p>Technology Management, Finance, Marketing, HR, and Entrepreneurship for future business leaders.</p>
+          <div class="course-meta">
+            <span>🎓 60 Seats</span>
+            <span>📊 CAT / MAT</span>
+          </div>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+
+        <div class="course-card" data-category="pg">
+          <div class="course-icon">🖥️</div>
+          <div class="course-tag">MCA · 2 Years</div>
+          <h3>Master of Computer Applications</h3>
+          <p>Advanced Software Development, Cloud Architecture, AI Applications, and Project Management.</p>
+          <div class="course-meta">
+            <span>🎓 30 Seats</span>
+            <span>📊 B.Sc / BCA</span>
+          </div>
+          <a href="#admissions" class="course-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FACULTY SECTION ===================== -->
+  <section id="faculty" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Our Team</span>
+        <h2 class="section-title">Meet Our Faculty</h2>
+        <p class="section-subtitle">PhD scholars, industry veterans, and passionate educators committed to your growth.</p>
+      </div>
+      <div class="faculty-grid">
+
+        <div class="faculty-card">
+          <div class="faculty-photo" style="background:linear-gradient(135deg,#1E4FC2,#3B82F6)">
+            <span>Dr. RV</span>
+          </div>
+          <div class="faculty-info">
+            <h4>Dr. R. Venkatesh</h4>
+            <p class="faculty-dept">Computer Science Engineering</p>
+            <p class="faculty-exp">22 Years Experience</p>
+            <p class="faculty-qual">PhD – IIT Madras | IEEE Senior Member</p>
+          </div>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-photo" style="background:linear-gradient(135deg,#7C3AED,#A855F7)">
+            <span>Dr. SP</span>
+          </div>
+          <div class="faculty-info">
+            <h4>Dr. S. Priya</h4>
+            <p class="faculty-dept">Artificial Intelligence &amp; DS</p>
+            <p class="faculty-exp">18 Years Experience</p>
+            <p class="faculty-qual">PhD – Anna University | Ex-Google AI Research</p>
+          </div>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-photo" style="background:linear-gradient(135deg,#0F766E,#14B8A6)">
+            <span>Dr. KM</span>
+          </div>
+          <div class="faculty-info">
+            <h4>Dr. K. Mohan</h4>
+            <p class="faculty-dept">Electronics &amp; Communication</p>
+            <p class="faculty-exp">20 Years Experience</p>
+            <p class="faculty-qual">PhD – IIT Bombay | 30+ Patents</p>
+          </div>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-photo" style="background:linear-gradient(135deg,#B45309,#F59E0B)">
+            <span>Prof. AL</span>
+          </div>
+          <div class="faculty-info">
+            <h4>Prof. A. Lakshmi</h4>
+            <p class="faculty-dept">Information Technology</p>
+            <p class="faculty-exp">15 Years Experience</p>
+            <p class="faculty-qual">M.Tech – NIT Trichy | AWS Certified</p>
+          </div>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-photo" style="background:linear-gradient(135deg,#BE123C,#F43F5E)">
+            <span>Dr. NR</span>
+          </div>
+          <div class="faculty-info">
+            <h4>Dr. N. Rajan</h4>
+            <p class="faculty-dept">Mechanical Engineering</p>
+            <p class="faculty-exp">25 Years Experience</p>
+            <p class="faculty-qual">PhD – IIT Delhi | ASME Fellow</p>
+          </div>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-photo" style="background:linear-gradient(135deg,#065F46,#10B981)">
+            <span>Dr. VB</span>
+          </div>
+          <div class="faculty-info">
+            <h4>Dr. V. Balamurugan</h4>
+            <p class="faculty-dept">Civil Engineering</p>
+            <p class="faculty-exp">19 Years Experience</p>
+            <p class="faculty-qual">PhD – Anna University | Chartered Engineer</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CAMPUS LIFE SECTION ===================== -->
+  <section id="campus" class="section section-dark">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-eyebrow">Life at VKIT</span>
+        <h2 class="section-title">Beyond the Classroom</h2>
+        <p class="section-subtitle">A vibrant campus ecosystem built to nurture every dimension of student life.</p>
+      </div>
+      <div class="campus-grid">
+        <div class="campus-card large">
+          <div class="campus-card-inner" style="--bg:linear-gradient(135deg,#0A1628,#1E4FC2)">
+            <div class="campus-icon">📚</div>
+            <h3>Central Library</h3>
+            <p>3 lakh+ volumes, 500+ journals, 24×7 digital access via DELNET and IEEE Xplore. Quiet study zones and collaborative reading spaces.</p>
+          </div>
+        </div>
+        <div class="campus-card">
+          <div class="campus-card-inner" style="--bg:linear-gradient(135deg,#065F46,#10B981)">
+            <div class="campus-icon">🏆</div>
+            <h3>Sports Facilities</h3>
+            <p>Olympic-size swimming pool, cricket ground, football turf, badminton courts, and a fully equipped gymnasium.</p>
+          </div>
+        </div>
+        <div class="campus-card">
+          <div class="campus-card-inner" style="--bg:linear-gradient(135deg,#7C3AED,#A855F7)">
+            <div class="campus-icon">🔬</div>
+            <h3>Innovation Labs</h3>
+            <p>Maker Space, Robotics Lab, IoT Lab, and a dedicated AI Research Centre equipped with GPU servers.</p>
+          </div>
+        </div>
+        <div class="campus-card">
+          <div class="campus-card-inner" style="--bg:linear-gradient(135deg,#B45309,#F59E0B)">
+            <div class="campus-icon">🏠</div>
+            <h3>Hostel Facilities</h3>
+            <p>Separate AC hostels for boys and girls with 24×7 security, Wi-Fi, mess facilities, and recreational areas.</p>
+          </div>
+        </div>
+        <div class="campus-card large">
+          <div class="campus-card-inner" style="--bg:linear-gradient(135deg,#BE123C,#F43F5E)">
+            <div class="campus-icon">🎭</div>
+            <h3>Cultural Events</h3>
+            <p>Annual Tech Fest, Cultural Fest, NSS, NCC, and 40+ student clubs covering music, dance, drama, photography, and entrepreneurship. 365 days of campus buzz.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PLACEMENTS SECTION ===================== -->
+  <section id="placements" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Career Outcomes</span>
+        <h2 class="section-title">Placements 2024</h2>
+        <p class="section-subtitle">Our Training &amp; Placement Cell works year-round to connect you with the world's best employers.</p>
+      </div>
+
+      <div class="placement-stats-row">
+        <div class="placement-stat-card">
+          <div class="pstat-value">₹42 LPA</div>
+          <div class="pstat-label">Highest Package</div>
+          <div class="pstat-company">Microsoft</div>
+        </div>
+        <div class="placement-stat-card accent">
+          <div class="pstat-value">₹8.5 LPA</div>
+          <div class="pstat-label">Average Package</div>
+          <div class="pstat-company">Class of 2024</div>
+        </div>
+        <div class="placement-stat-card">
+          <div class="pstat-value">95%</div>
+          <div class="pstat-label">Placement Rate</div>
+          <div class="pstat-company">1200+ Offers</div>
+        </div>
+        <div class="placement-stat-card">
+          <div class="pstat-value">350+</div>
+          <div class="pstat-label">Recruiting Companies</div>
+          <div class="pstat-company">MNC + Startups</div>
+        </div>
+      </div>
+
+      <h3 class="recruiters-title">Top Recruiters</h3>
+      <div class="recruiters-grid">
+        <div class="recruiter-logo">TCS</div>
+        <div class="recruiter-logo">Infosys</div>
+        <div class="recruiter-logo">Wipro</div>
+        <div class="recruiter-logo">Microsoft</div>
+        <div class="recruiter-logo">Google</div>
+        <div class="recruiter-logo">Amazon</div>
+        <div class="recruiter-logo">HCL</div>
+        <div class="recruiter-logo">Cognizant</div>
+        <div class="recruiter-logo">Zoho</div>
+        <div class="recruiter-logo">Capgemini</div>
+        <div class="recruiter-logo">Accenture</div>
+        <div class="recruiter-logo">IBM</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section id="testimonials" class="section section-blue">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-eyebrow">Student Voice</span>
+        <h2 class="section-title">What Our Alumni Say</h2>
+      </div>
+      <div class="testimonials-slider" id="testimonialsSlider">
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-card">
+            <div class="testimonial-quote">"VKIT gave me the technical depth and the confidence to crack interviews at top MNCs. The faculty truly invests in every student's growth."</div>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" style="background:linear-gradient(135deg,#1E4FC2,#3B82F6)">AK</div>
+              <div>
+                <strong>Arjun Kumar</strong>
+                <span>Software Engineer, Microsoft · CSE 2022</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-quote">"The AI lab and the research opportunities here are world-class. I published two papers as an undergraduate — something I never imagined possible."</div>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" style="background:linear-gradient(135deg,#7C3AED,#A855F7)">PS</div>
+              <div>
+                <strong>Priya Suresh</strong>
+                <span>ML Engineer, Google DeepMind · AI&DS 2023</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-quote">"The campus, the culture, the placement support — everything exceeded my expectations. VKIT shaped me into a professional I'm proud to be."</div>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" style="background:linear-gradient(135deg,#0F766E,#14B8A6)">RN</div>
+              <div>
+                <strong>Rahul Natarajan</strong>
+                <span>Product Manager, Amazon · IT 2021</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-dots" id="testimonialDots">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== NEWS & EVENTS ===================== -->
+  <section id="news" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Stay Updated</span>
+        <h2 class="section-title">News &amp; Events</h2>
+      </div>
+      <div class="news-grid">
+        <article class="news-card">
+          <div class="news-date">
+            <span class="news-day">15</span>
+            <span class="news-month">Jul 2025</span>
+          </div>
+          <div class="news-content">
+            <span class="news-tag">Placement</span>
+            <h4>Campus Recruitment Drive – TCS &amp; Infosys</h4>
+            <p>Over 200 students are expected to sit for the recruitment drive by TCS and Infosys on the main campus. Pre-registration is mandatory.</p>
+            <a href="#" class="news-link">Read more →</a>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="news-date">
+            <span class="news-day">20</span>
+            <span class="news-month">Aug 2025</span>
+          </div>
+          <div class="news-content">
+            <span class="news-tag">Event</span>
+            <h4>VKIT Tech Fiesta 2025 – Annual Technical Symposium</h4>
+            <p>Our flagship annual symposium returns with hackathons, paper presentations, robotics challenges, and guest lectures from industry pioneers.</p>
+            <a href="#" class="news-link">Read more →</a>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="news-date">
+            <span class="news-day">31</span>
+            <span class="news-month">Jul 2025</span>
+          </div>
+          <div class="news-content">
+            <span class="news-tag">Admissions</span>
+            <h4>Scholarship Applications Close – Apply Before Deadline</h4>
+            <p>Merit-based and need-based scholarships are available for the 2025–26 batch. Up to 100% tuition fee waiver for top scorers.</p>
+            <a href="#" class="news-link">Read more →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ADMISSIONS SECTION ===================== -->
+  <section id="admissions" class="section section-dark">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-eyebrow">Join Us</span>
+        <h2 class="section-title">Admissions 2025–26</h2>
+        <p class="section-subtitle">A transparent, merit-based process designed to be simple and stress-free.</p>
+      </div>
+
+      <div class="admissions-layout">
+        <div class="admission-left">
+          <h3 class="admission-sub-title">How to Apply</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker">1</div>
+              <div class="timeline-content">
+                <h4>Register Online</h4>
+                <p>Fill out the application form with your personal, academic, and contact details.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker">2</div>
+              <div class="timeline-content">
+                <h4>Upload Documents</h4>
+                <p>Submit mark sheets, transfer certificate, passport photo, and ID proof.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker">3</div>
+              <div class="timeline-content">
+                <h4>Counselling</h4>
+                <p>Attend TNEA / Management Quota counselling based on your preferred programme.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker">4</div>
+              <div class="timeline-content">
+                <h4>Pay Fees &amp; Enroll</h4>
+                <p>Confirm your seat, pay the admission fee, and begin your journey at VKIT!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="eligibility-box">
+            <h4>Eligibility Criteria</h4>
+            <ul>
+              <li>✅ B.Tech: 10+2 with PCM / PCB, minimum 60%</li>
+              <li>✅ MBA: Any UG degree with 50% marks + CAT/MAT</li>
+              <li>✅ MCA: B.Sc / BCA with Mathematics, minimum 55%</li>
+              <li>✅ NRI / Foreign students: Eligible via Management Quota</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="admission-right">
+          <div class="apply-form-card">
+            <h3>Apply Now</h3>
+            <form id="applyForm" class="apply-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name *</label>
+                  <input type="text" id="firstName" name="firstName" placeholder="Arjun" required />
+                  <span class="form-error" id="firstNameError"></span>
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name *</label>
+                  <input type="text" id="lastName" name="lastName" placeholder="Kumar" required />
+                  <span class="form-error" id="lastNameError"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="arjun@example.com" required />
+                <span class="form-error" id="emailError"></span>
+              </div>
+              <div class="form-group">
+                <label for="phone">Mobile Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="98765 43210" required />
+                <span class="form-error" id="phoneError"></span>
+              </div>
+              <div class="form-group">
+                <label for="programme">Programme *</label>
+                <select id="programme" name="programme" required>
+                  <option value="">Select Programme</option>
+                  <option>B.Tech – Computer Science Engineering</option>
+                  <option>B.Tech – Artificial Intelligence &amp; Data Science</option>
+                  <option>B.Tech – Information Technology</option>
+                  <option>B.Tech – Electronics &amp; Communication Engg.</option>
+                  <option>B.Tech – Mechanical Engineering</option>
+                  <option>B.Tech – Civil Engineering</option>
+                  <option>MBA</option>
+                  <option>MCA</option>
+                </select>
+                <span class="form-error" id="programmeError"></span>
+              </div>
+              <div class="form-group">
+                <label for="marks">12th / UG Percentage *</label>
+                <input type="number" id="marks" name="marks" placeholder="e.g. 87.5" min="0" max="100" required />
+                <span class="form-error" id="marksError"></span>
+              </div>
+              <div class="form-group">
+                <label for="message">Message / Query</label>
+                <textarea id="message" name="message" rows="3" placeholder="Any specific questions or queries…"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Submit Application</button>
+              <div id="formSuccess" class="form-success hidden">
+                🎉 Application received! Our admissions team will contact you within 24 hours.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ SECTION ===================== -->
+  <section id="faq" class="section section-light">
+    <div class="container container-narrow">
+      <div class="section-header">
+        <span class="section-eyebrow">FAQs</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">Is VKIT approved by AICTE and affiliated to Anna University? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">Yes. VK Institute of Technology is approved by AICTE, New Delhi, and affiliated to Anna University, Chennai. It holds NAAC 'A' grade accreditation.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">What is the admission process for B.Tech programmes? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">Admission to B.Tech programmes is through TNEA (Tamil Nadu Engineering Admissions) conducted by Anna University, as well as the Management Quota. NRI and foreign national students are admitted through a separate process.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Are hostel facilities available for outstation students? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">Yes. Separate AC hostels are available for boys and girls on campus with 24×7 security, nutritious meals, high-speed Wi-Fi, laundry services, and recreational areas.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Does VKIT offer scholarships? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">VKIT offers merit-based scholarships (up to 100% fee waiver for top rank holders), need-based scholarships, and also facilitates government scholarships (BC/MBC/SC/ST) and education loans through partner banks.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">What is the placement record of VKIT? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">VKIT achieved 95% overall placement in 2024, with 350+ companies visiting the campus. The highest package was ₹42 LPA (Microsoft) and the average package was ₹8.5 LPA for the class of 2024.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Can I visit the campus before applying? <span class="faq-icon">+</span></button>
+          <div class="faq-answer">Absolutely! Campus tours are available on all working days between 10 AM and 4 PM. You can also book a virtual campus tour online or attend our Open Day events held every quarter.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT SECTION ===================== -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-eyebrow">Get in Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-subtitle">We're happy to answer any questions about admissions, programmes, or campus life.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-info">
+          <div class="contact-detail">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Address</strong>
+              <p>VK Institute of Technology,<br />NH-48, Poonamallee,<br />Chennai – 600 056,<br />Tamil Nadu, India.</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">📞</div>
+            <div>
+              <strong>Phone</strong>
+              <p>+91 44 2678 9000<br />+91 98400 12345 (Admissions)</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <strong>Email</strong>
+              <p>admissions@vkit.edu.in<br />info@vkit.edu.in</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <strong>Office Hours</strong>
+              <p>Mon–Sat: 9:00 AM – 5:00 PM<br />Sunday: Closed</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cName">Your Name *</label>
+                <input type="text" id="cName" placeholder="Full Name" required />
+                <span class="form-error" id="cNameError"></span>
+              </div>
+              <div class="form-group">
+                <label for="cEmail">Email *</label>
+                <input type="email" id="cEmail" placeholder="you@example.com" required />
+                <span class="form-error" id="cEmailError"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cSubject">Subject *</label>
+              <input type="text" id="cSubject" placeholder="How can we help?" required />
+              <span class="form-error" id="cSubjectError"></span>
+            </div>
+            <div class="form-group">
+              <label for="cMessage">Message *</label>
+              <textarea id="cMessage" rows="5" placeholder="Write your message…" required></textarea>
+              <span class="form-error" id="cMessageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <div id="contactSuccess" class="form-success hidden">
+              ✅ Message sent! We'll get back to you within 24 hours.
+            </div>
+          </form>
+        </div>
+
+        <div class="map-wrap">
+          <div class="map-placeholder">
+            <div class="map-pin">📍</div>
+            <p><strong>VK Institute of Technology</strong><br />NH-48, Poonamallee, Chennai – 600 056</p>
+            <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Open in Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <div class="logo-icon">VK</div>
+              <span>VK Institute of Technology</span>
+            </div>
+            <p>Empowering students since 1998 through excellence in education, research, and innovation. NAAC 'A' Grade | AICTE Approved | Affiliated to Anna University.</p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Facebook">f</a>
+              <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+              <a href="#" class="social-link" aria-label="Instagram">📷</a>
+              <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+              <a href="#" class="social-link" aria-label="YouTube">▶</a>
+            </div>
+          </div>
+
+          <div class="footer-links-col">
+            <h5>Quick Links</h5>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#courses">Programmes</a></li>
+              <li><a href="#admissions">Admissions</a></li>
+              <li><a href="#placements">Placements</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h5>Academics</h5>
+            <ul>
+              <li><a href="#courses">B.Tech CSE</a></li>
+              <li><a href="#courses">AI &amp; Data Science</a></li>
+              <li><a href="#courses">Information Technology</a></li>
+              <li><a href="#courses">ECE</a></li>
+              <li><a href="#courses">MBA / MCA</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h5>Support</h5>
+            <ul>
+              <li><a href="#faq">FAQs</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#campus">Campus Life</a></li>
+              <li><a href="#faculty">Faculty</a></li>
+              <li><a href="#news">News &amp; Events</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2025 VK Institute of Technology, Chennai. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== SCROLL TO TOP ===================== -->
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
